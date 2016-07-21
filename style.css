@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic);
+
+/*Оформление параграфа*/
+body {
+	background: #333333 url(images/18.jpg) repeat-x top left;
+}
+
+#page {
+width: 960px;
+margin: 0 auto;
+}
+
+.strong-red {
+margin-top: 400px;
+color: #30a7ff;
+text-align: center;
+text-decoration: none;
+text-indent: 30px;
+line-height: 30px;
+font-family: 'PT Sans', sans-serif;
+font-style: italic;
+font-variant: small-caps;
+}
+
+.light-blue {
+font-weight: bold;
+color: blue;
+}
+
+.light-blue {
+	font-size: 18px;
+	color: black;
+}
+
+#styles li {
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	list-style-type: lower-alpha;
+}
